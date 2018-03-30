@@ -1,21 +1,22 @@
 {
-  "name": "web-exam",
+  "name": "tutor-finder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emz27/web-exam.git"
+    "url": "git+https://github.com/Emz27tutor-finder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Emz27/web-exam/issues"
+    "url": "https://github.com/Emz27/tutor-finder/issues"
   },
-  "homepage": "https://github.com/Emz27/web-exam#readme",
+  "homepage": "https://github.com/Emz27/tutor-finder#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -23,24 +24,32 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "bootstrap": "^4.0.0-beta.3",
-    "moment": "^2.20.1",
+    "firebase": "^4.11.0",
+    "firebaseui": "^2.6.3",
+    "font-awesome": "^4.7.0",
+    "mdbreact": "git+https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design.git",
+    "moment": "^2.21.0",
     "popper.js": "^1.12.9",
     "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.2.0",
+    "react-error-overlay": "^4.0.0",
+    "react-places-autocomplete": "^6.1.3",
     "react-router-dom": "^4.2.2",
     "react-virtualized": "^9.16.1",
-    "webpack": "^3.10.0",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^0.28.8",
-    "datatables.net": "^1.10.16",
-    "jquery": "^3.2.1",
+    "file-loader": "^1.1.11",
+    "image-webpack-loader": "^4.2.0",
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.1.5",
-    "webpack-bundle-analyzer": "^2.9.1"
+    "url-loader": "^1.0.1",
+    "webpack": "^3.11.0",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-cli": "^2.0.13"
   }
 }
