@@ -7,7 +7,7 @@ var SERVER_DIR = path.resolve(__dirname, '../../../../../xampp-5.6.30/htdocs/bui
 var APP_DIR = path.resolve(__dirname, 'src/app');
 
 var localBuild = {
-  name: "a",
+  name: 'a',
   devtool: 'source-map',
   entry: [APP_DIR + '/index.jsx'],
   output: {
@@ -29,17 +29,17 @@ var localBuild = {
         }
       },
       {
-         test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-         use: [{
-           loader: 'file-loader',
-           options: {
-             name: '[name].[ext]',
-             outputPath: 'fonts/',    // where the fonts will go
-             publicPath: '../src/build/fonts/'       // override the default path
-           }
-         }]
-       },
-       {
+        test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'fonts/',    // where the fonts will go
+            publicPath: '../src/build/fonts/'       // override the default path
+          }
+        }]
+      },
+      {
         test: /\.(png|jpg|gif)$/,
         use: [
           {

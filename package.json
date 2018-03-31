@@ -24,6 +24,9 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "bootstrap": "^4.0.0-beta.3",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.7.0",
     "firebase": "^4.11.0",
     "firebaseui": "^2.6.3",
     "font-awesome": "^4.7.0",
@@ -41,6 +44,7 @@
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "css-loader": "^0.28.8",
     "file-loader": "^1.1.11",
